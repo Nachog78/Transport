@@ -30,9 +30,9 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 
     public IActionResult OnPost()
     {
-        if(Rutas.id>0)
+        if(Ruta.id>0)
         {
-        Rutas = repositorioRutas.Delete(Rutas.id);
+        Ruta = repositorioRutas.Delete(Ruta.id);
         }
         return RedirectToPage("./List");
     }

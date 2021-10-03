@@ -33,6 +33,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Rutas GetRutaWithId(int id){
             return rutas.SingleOrDefault(b => b.id == id);
         }
+
         public Rutas Create(Rutas newRuta)
         {
            if(rutas.Count > 0){
@@ -50,7 +51,6 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         rutas.Remove(ruta);
         return ruta;
         }
-
 
         public Rutas Update(Rutas newRuta){
             var ruta= rutas.SingleOrDefault(b => b.id == newRuta.id);

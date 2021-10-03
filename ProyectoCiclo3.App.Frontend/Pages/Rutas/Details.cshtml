@@ -4,10 +4,14 @@
     var ruta = Model.Ruta;
 }
  
+<h1>Detalles de Rutas</h1>
+
 <ul class="list-group list-group-flush">
   <li class="list-group-item"> <b>id: </b> @ruta.id</li>
   <li class="list-group-item"> <b>Origen: </b> @ruta.origen</li>
   <li class="list-group-item"> <b>Destino: </b> @ruta.destino</li>
   <li class="list-group-item"><b>Tiempo_Estimado: </b> @ruta.tiempo_estimado</li>
   
-</ul>	
+</ul>
+
+<a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>

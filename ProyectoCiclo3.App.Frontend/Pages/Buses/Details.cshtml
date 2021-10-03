@@ -1,9 +1,10 @@
-page
+@page
 @model ProyectoCiclo3.App.Frontend.Pages.DetailsBusModel
 @{
     var bus = Model.Bus;
 }
- 
+
+<h1>Detalles de Bus</h1>
 <ul class="list-group list-group-flush">
   <li class="list-group-item"> <b>id: </b> @bus.id</li>
   <li class="list-group-item"> <b>Marca: </b> @bus.marca</li>
@@ -12,3 +13,4 @@ page
   <li class="list-group-item"><b>Numero de asientos: </b> @bus.numero_asientos</li>
   <li class="list-group-item"><b>Placa: </b> @bus.placa</li>
 </ul>	
+<a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>

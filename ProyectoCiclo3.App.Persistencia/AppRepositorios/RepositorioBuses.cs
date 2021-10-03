@@ -28,6 +28,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Buses GetBusWithId(int id){
             return buses.SingleOrDefault(b => b.id == id);
         }
+
         public Buses Create(Buses newBus)
         {
            if(buses.Count > 0){
@@ -38,13 +39,13 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
            buses.Add(newBus);
            return newBus;   
         }
+        
         public Buses Delete(int id)
         {
         var bus= buses.SingleOrDefault(b => b.id == id);
         buses.Remove(bus);
         return bus;
         }
-
 
         public Buses Update(Buses newBus){
             var bus= buses.SingleOrDefault(b => b.id == newBus.id);

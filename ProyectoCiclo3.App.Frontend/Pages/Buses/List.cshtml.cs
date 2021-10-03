@@ -27,6 +27,15 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     {
         Buses=repositorioBuses.GetAll();
     }
+
+    public IActionResult OnPost()
+    {
+        if(Bus.id>0)
+        {
+        Bus = repositorioBuses.Delete(Bus.id);
+        }
+        return RedirectToPage("./List");
+    }
     }
 }
 

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5C/3Xmo8u7HhlKGzLBgLDL2eAHI7zLY69x5gyvRPHlAXEbOl7pg+LN1RQIJUrYAxJ/WKJ3vcK54ISz2XoOeg9g==",
+  "dgSpecHash": "5QO2F95+P2aJzhv9IRx1NZfo8CGM3O7J6Zjs2dHFhFTD/El+Xp3fuW4O20G/awtstxtgha48rB1RQIjx93c39w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Moni\\Documents\\MISION TIC 2021\\Dllo Software\\Proyecto Equipo\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moni\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Moni\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Moni\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Moni\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

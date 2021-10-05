@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5QO2F95+P2aJzhv9IRx1NZfo8CGM3O7J6Zjs2dHFhFTD/El+Xp3fuW4O20G/awtstxtgha48rB1RQIjx93c39w==",
+  "dgSpecHash": "Mfng1C6wXS/CPc8JXp9oCYzYFr1WZMKZMravugV1isdKni03GXA5S67QayI1bPk8x/QUM4+JPXXPsCJ7G74BOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Moni\\Documents\\MISION TIC 2021\\Dllo Software\\Proyecto Equipo\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\lvane\\OneDrive\\Escritorio\\proyectogrupo4\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Moni\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Moni\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Moni\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\lvane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lvane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lvane\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

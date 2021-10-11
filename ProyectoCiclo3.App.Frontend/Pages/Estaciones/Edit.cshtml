@@ -4,21 +4,47 @@
     var estacion = Model.Estacion;
 }
  
-<div class="text-center">
-<form method="post">
-  <label for="id" class="form-label">id:</label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@estacion.id" required>
-  <label for="Nombre" class="form-label">Nombre:</label>
-  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" asp-for="@estacion.nombre">
-  <label for="Direccion" class="form-label">Direccion:</label>
-  <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Direccion" asp-for="@estacion.direccion">
-  <label for="Coordenada X" class="form-label">Coordenada X:</label>
-  <input type="number" class="form-control" id="coord_x" name="coord_x" placeholder="Coord. x" asp-for="@estacion.coord_x">
-  <label for="Coordenada Y" class="form-label">Coordenada Y:</label>
-  <input type="number" class="form-control" id="coord_y" name="coord_y" placeholder="Coord. y" asp-for="@estacion.coord_y">
-  <label for="Tipo" class="form-label">Tipo:</label>
-  <input type="text" class="form-control" id="tipo" name="tipo" placeholder="Tipo" asp-for="@estacion.tipo" readonly>
+ 
+<h1>Registrar Estación</h1>
+<form method="POST">
+
+  <div class="form">
+    <label for="id" class="form-label">id:</label>
+    <input type="number" class="form-control" id="id" placeholder="id" asp-for="@estacion.id" Readonly>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="nombre">Nombre:</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre" asp-for="@estacion.nombre" Required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="direccion">Dirección:</label>
+      <input type="text" class="form-control" id="direccion" placeholder="Direccion" asp-for="@estacion.direccion" Required>
+    </div>
+  </div>
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="coord_x" class="form-label">Coordenada X:</label>
+      <input type="number" class="form-control" id="coord_x" placeholder="Coordenada X" asp-for="@estacion.coord_x" Required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="coord_y" class="form-label">Coordenada Y:</label>
+      <input type="number" class="form-control" id="coord_y" placeholder="Coordenada Y" asp-for="@estacion.coord_y" Required>
+    </div>
+  </div>
+
+  <div class="form">
+    <label for="tipo" class="form-label">Tipo:</label>
+    <input type="text" class="form-control" id="tipo" placeholder="Tipo" asp-for="@estacion.tipo" Required>
+  </div>
+
+  <div>
+    <button type="submit" class="btn btn-success">Enviar</button>
+    <a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>
+  </div>
+
   <hr>
-  <button type="submit" class="btn btn-success">Enviar</button>
+
 </form>
-</div>

@@ -1,11 +1,14 @@
 @page
 @model ProyectoCiclo3.App.Frontend.Pages.ListRutaModel
 @{
+    
 }
  
-<h1>Estas son nuetras Rutas</h1>
+<h1>Rutas</h1>
+
+<div class="text-center">
 <table class="table">
-    <thead>
+    <thead class="table-dark">
         <th>Id</th>
         <th>Origen</th>
         <th>Destino</th>
@@ -20,18 +23,16 @@
             <td>@ruta.destino</td>
             <td>@ruta.tiempo_estimado</td>
             <td>
-              <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-rutaId="@ruta.id">
-                  <i class="fas fa-eye" title="Ver"></i>
-              </a>
-              <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-rutaId="@ruta.id">
-                  <i class="fas fa-edit" aria-hidden="true" title="Editar"></i>
+              <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-rutaId="@ruta.id"><i class="fas fa-eye" title="Ver"></i></a>
+              <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-rutaId="@ruta.id"><i class="fas fa-edit" aria-hidden="true" title="Editar"></i>
               </a>
               <form method="POST">
               <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@ruta.id">
-                  <button type="submit"class="btn btn-danger" href=""><i class="fas fa-trash-alt" title="¡ELIMINAR!"></i></button>
+                  <button type="submit"class="btn btn-danger" href=""><i class="fas fa-trash-alt" title="Eliminar"></i></button>
               </form>
             </td>
         </tr>
     }
 </table>
+</div>
 

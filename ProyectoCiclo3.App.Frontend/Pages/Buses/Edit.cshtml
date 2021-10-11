@@ -4,23 +4,55 @@
     var bus = Model.Bus;
 }
 
-<h1>Edición de bus</h1>
-<div class="text-center">
+<h1>Editar bus</h1>
 <form method="post">
-  <label for="id" class="form-label">id:</label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@bus.id" readonly>
-  <label for="marca" class="form-label">Marca:</label>
-  <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca" asp-for="@bus.marca">
-  <label for="modelo" class="form-label">Modelo:</label>
-  <input type="number" class="form-control" id="modelo" name="modelo" placeholder="Modelo" asp-for="@bus.modelo">
-  <label for="kilometraje" class="form-label">Kilometraje:</label>
-  <input type="number" class="form-control" id="kilometraje" name="kilometraje" placeholder="Kilometraje" asp-for="@bus.kilometraje">
-  <label for="numero_asientos" class="form-label">Número de asientos:</label>
-  <input type="number" class="form-control" id="numero_asientos" name="numero_asientos" placeholder="Número de asientos" asp-for="@bus.numero_asientos">
-  <label for="placa" class="form-label">Placa:</label>
-  <input type="text" class="form-control" id="Placa" name="placa" placeholder="placa" asp-for="@bus.placa">
-  <hr>
-  <button type="submit" class="btn btn-success">Enviar</button>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="id">ID</label>
+      <input type="number" class="form-control" id="id" placeholder="id" asp-for="@bus.id" readonly>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="marca">Marca</label>
+      <select class="form-control" id="marca" asp-for="@bus.marca">
+        <option selected>@bus.marca</option>
+        <option>Mercedes_Benz</option>
+        <option>Hyundai</option>
+        <option>Mitsubishi</option>
+        <option>Volkswagen</option>
+        <option>Joyling</option>
+        <option>Foton</option>
+        <option>Scania</option>
+        <option>JAC</option>
+        <option>Higer</option>
+        <option>Volvo</option>
+        <option>Chevrolet</option>
+        <option>Nissan</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="modelo">Modelo</label>
+      <input type="number" class="form-control" id="modelo" placeholder="Modelo" asp-for="@bus.modelo">
+      <span class="text-danger" asp-validation-for="@bus.modelo"></span> 
+    </div>
+    <div class="form-group col-md-6">
+      <label for="kilometraje">Kilometraje</label>
+      <input type="number" class="form-control" id="kilometraje" placeholder="Kilometraje" asp-for="@bus.kilometraje" Required>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="numero_asientos">Número de Asientos</label>
+      <input type="number" class="form-control" id="numero_asientos" placeholder="Número de asientos" asp-for="@bus.numero_asientos" Required>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="placa">Placa</label>
+      <input type="text" class="form-control" id="placa" placeholder="Placa" asp-for="@bus.placa" Required>
+    </div>
+  </div>
+  <div>
+    <button type="submit" class="btn btn-success">Enviar</button>
+    <a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>
+  </div>
 </form>
-<a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>
-</div>

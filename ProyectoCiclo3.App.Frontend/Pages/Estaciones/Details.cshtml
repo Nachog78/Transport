@@ -3,12 +3,14 @@
 @{
     var estacion = Model.Estacion;
 }
- 
+
+<h1>Detalles de Estación</h1>
 <ul class="list-group list-group-flush">
-  <li class="list-group-item"> <b>id: </b> @estacion.id</li>
-  <li class="list-group-item"> <b>Nombre: </b> @estacion.nombre</li>
-  <li class="list-group-item"> <b>Direccion: </b> @estacion.direccion</li>
+  <li class="list-group-item"><b>id: </b> @estacion.id</li>
+  <li class="list-group-item"><b>Nombre: </b> @estacion.nombre</li>
+  <li class="list-group-item"><b>Direccion: </b> @estacion.direccion</li>
   <li class="list-group-item"><b>Coordenada X: </b> @estacion.coord_x</li>
   <li class="list-group-item"><b>Coordenada Y: </b> @estacion.coord_y</li>
   <li class="list-group-item"><b>Tipo: </b> @estacion.tipo</li>
 </ul>
+<a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>

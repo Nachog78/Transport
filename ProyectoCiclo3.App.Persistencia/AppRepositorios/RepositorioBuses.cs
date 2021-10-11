@@ -26,7 +26,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return addBus.Entity;   
         }
         
-        public Buses Delete(int id)
+        public void Delete(int id)
         {
             var bus = _appContext.Buses.Find(id);
             if (bus == null)

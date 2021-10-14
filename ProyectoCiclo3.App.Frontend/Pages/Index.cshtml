@@ -4,7 +4,45 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Transfour SAS</h2>
+                    <h3 class="section-subheading text-muted">Bienvenidos a la pagina de gestion de nuestra empresa</h3>
+                    <a href=""><img src="https://www.terminalcali.com/info/terminalcali/media/pubInt/thumbs/thpubInt_700X400_43484.webp" alt="logo-preview-rev-1" width="600" height="400"></a>
+                </div>
+                <div class="row text-center">
+                    <h2 class="section-heading text-uppercase">A continuación seleccione un servicio</h2>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a class="portfolio-link" data-bs-toggle="modal" asp-area="" asp-page="/Buses/List">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-bus-alt fa-stack-1x fa-inverse"></i>
+                            </a>
+                        </span>
+                        <h3 class="my-3">Buses</h3>
+                        <h4 class="text-muted">A continuación, podrá verificar los buses que tenemos disponibles en nuestra flota y escoger uno que se adapte a sus necesidades y presupuesto.</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a class="portfolio-link" data-bs-toggle="modal" asp-area="" asp-page="/Estaciones/List">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-warehouse fa-stack-1x fa-inverse"></i>
+                            </a>
+                        </span>
+                        <h3 class="my-3">Estaciones</h3>
+                        <h4 class="text-muted">En este apartado, podrá consultar las estaciones con las cuales cuenta nuestra empresa y así planear mejor su viaje.</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <a class="portfolio-link" data-bs-toggle="modal" asp-area="" asp-page="/Rutas/List">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-map-marked-alt fa-stack-1x fa-inverse"></i>
+                            </a>
+                        </span>
+                        <h3 class="my-3">Rutas</h3>
+                        <h4 class="text-muted">Acá podrá revisar las rutas aprobadas por MIN Transporte, verificar los tiempos de desplazamiento y organizar su viaje de manera segura y efectiva.</h4>
+                    </div>
+                    <a href=""><img src="https://i.ibb.co/qgcXdTF/Copia-de-Download-our-app-Hecho-con-Poster-My-Wall.jpg" alt="" border="0"></a>
+                </div>
+            </div>

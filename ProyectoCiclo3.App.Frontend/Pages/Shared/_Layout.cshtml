@@ -1,47 +1,45 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Gestion de Buses</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Gestion de Buses</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/List">Ver Buses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Buses/Create">Registrar Bus</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/List">Ver Estación</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/Create">Registrar Estación</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/List">Ver Rutas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Rutas/Create">Registrar Rutas</a>
-                        </li>
-                    
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/3587217821.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a class="navbar-brand" asp-area="" asp-page="/Index">TRANSFOUR SAS</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" asp-area="" data-toggle="dropdown" >Buses <i class="fa fa-bus blue-color " ></i><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a class="nav-link text-dark" asp-area="" asp-page="/Buses/List">Ver Buses</a>
+            <li><a class="nav-link text-dark" asp-area="" asp-page="/Buses/Create">Registrar Bus</a>
+
+            </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" asp-area="" data-toggle="dropdown" >Estaciones <i class="fas fa-warehouse " ></i> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/List">Ver Estaciones</a>
+            <li><a class="nav-link text-dark" asp-area="" asp-page="/Estaciones/Create">Registrar Estaciones</a>
+
+            </ul>
+        </li>
+        <li class="dropdown"><a class="dropdown-toggle" asp-area="" data-toggle="dropdown" >Rutas <i class="fas fa-map-marked-alt " ></i><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a class="nav-link text-dark" asp-area="" asp-page="/Rutas/List">Ver Rutas</a>
+            <li><a class="nav-link text-dark" asp-area="" asp-page="/Rutas/Create">Registrar Rutas</a>
+
+            </ul>
+        </li>
+        </ul>
+    </div>
+    </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -51,7 +49,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - Gestion de Buses - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <img src="https://i.ibb.co/cQm3k15/logo-preview-rev-1.png" alt="logo-preview-rev-1" border="0"></a>&copy; 2021 <a href=""><a asp-area="" asp-page="/Privacy">Privacy</a> 
         </div>
     </footer>
 

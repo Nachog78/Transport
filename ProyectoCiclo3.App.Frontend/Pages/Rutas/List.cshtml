@@ -27,7 +27,7 @@
               <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-rutaId="@ruta.id"><i class="fas fa-edit" aria-hidden="true" title="Editar"></i>
               </a>
               <form method="POST">
-              <input type="number" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@ruta.id">
+              <input type="hidden" class="form-control d-none" id="id" name="id" placeholder="id" asp-for="@ruta.id">
                   <button type="submit"class="btn btn-danger" href=""><i class="fas fa-trash-alt" title="Eliminar"></i></button>
               </form>
             </td>

@@ -1,14 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "nCMk/bxm9fnLjs8THPxOaazQZLXyKoWMhF/O0994dkRvZGWOdju2Cg7wBUYOL/jNNMIv9ggOiH6XFAmhIZ+f8Q==",
-  "success": true,
-  "projectFilePath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\JIGB\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\JIGB\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\JIGB\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
-=======
   "dgSpecHash": "WntVm0vU3SVLMxUbzGlpMSbF6VyfN/SV+ADAe9oUrKU9pChxyqnvCFwsaYxR4N1MAqFnmZCSEsF5WWqVgmnfEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
@@ -16,7 +7,13 @@
     "C:\\Users\\jeane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jeane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\jeane\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
->>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

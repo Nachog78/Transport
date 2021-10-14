@@ -280,25 +280,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\JIGB\\.nuget\\packages\\": {}
-=======
     "C:\\Users\\jeane\\.nuget\\packages\\": {}
->>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-      "projectName": "ProyectoCiclo3.App.Dominio",
-      "projectPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\JIGB\\.nuget\\packages\\",
-      "outputPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\JIGB\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
       "projectUniqueName": "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
       "projectName": "ProyectoCiclo3.App.Dominio",
       "projectPath": "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
@@ -307,7 +293,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeane\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -350,12 +335,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
->>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

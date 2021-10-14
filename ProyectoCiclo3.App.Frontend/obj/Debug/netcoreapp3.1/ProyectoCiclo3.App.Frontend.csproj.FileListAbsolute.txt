@@ -369,6 +369,104 @@ C:\Users\Moni\Documents\MISION TIC 2021\Dllo Software\Proyecto Equipo v2\Transpo
 C:\Users\Moni\Documents\MISION TIC 2021\Dllo Software\Proyecto Equipo v2\Transport\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.dll
 C:\Users\Moni\Documents\MISION TIC 2021\Dllo Software\Proyecto Equipo v2\Transport\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.pdb
 C:\Users\Moni\Documents\MISION TIC 2021\Dllo Software\Proyecto Equipo v2\Transport\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.genruntimeconfig.cache
+<<<<<<< HEAD
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Details.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Estaciones\Edit.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.StaticWebAssets.xml
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Humanizer.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.MvcApplicationPartsAssemblyInfo.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+H:\Documentos\Home\Desarrollo\2021\U Caldas\DS-C3-25\App_Ciclo3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+=======
 C:\Users\jeane\Transport\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\jeane\Transport\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\jeane\Transport\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -462,3 +560,4 @@ C:\Users\jeane\Transport\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\sta
 C:\Users\jeane\Transport\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.dll
 C:\Users\jeane\Transport\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.pdb
 C:\Users\jeane\Transport\ProyectoCiclo3.App.Frontend\obj\Debug\netcoreapp3.1\ProyectoCiclo3.App.Frontend.genruntimeconfig.cache
+>>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9

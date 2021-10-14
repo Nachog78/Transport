@@ -1,6 +1,22 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
+  },
+  "projects": {
+    "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "projectName": "ProyectoCiclo3.App.Dominio",
+        "projectPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\JIGB\\.nuget\\packages\\",
+        "outputPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JIGB\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
     "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
   },
   "projects": {
@@ -15,6 +31,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeane\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,6 +74,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "projectName": "ProyectoCiclo3.App.Frontend",
+        "projectPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\JIGB\\.nuget\\packages\\",
+        "outputPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JIGB\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
@@ -72,6 +106,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeane\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -82,8 +117,13 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
+              "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+                "projectPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+=======
               "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
                 "projectPath": "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+>>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
               }
             }
           }
@@ -96,6 +136,40 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -114,6 +188,23 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "projectName": "ProyectoCiclo3.App.Persistencia",
+        "projectPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\JIGB\\.nuget\\packages\\",
+        "outputPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\JIGB\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
@@ -129,6 +220,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeane\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -139,8 +231,13 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
+<<<<<<< HEAD
+              "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
+                "projectPath": "H:\\Documentos\\Home\\Desarrollo\\2021\\U Caldas\\DS-C3-25\\App_Ciclo3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+=======
               "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
                 "projectPath": "C:\\Users\\jeane\\Transport\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj"
+>>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
               }
             }
           }
@@ -190,7 +287,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+>>>>>>> 7f9f0a56c32dff42b1573e0897ef163de01851a9
         }
       }
     }

@@ -53,6 +53,7 @@ namespace ProyectoCiclo3.App.Frontend
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

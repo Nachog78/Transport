@@ -1,48 +1,46 @@
 @page
-@model ProyectoCiclo3.App.Frontend.Pages.EditRutaModel
+@model ProyectoCiclo3.App.Frontend.Pages.EditModel
 @{
-    var ruta = Model.Ruta;
+  var ruta = Model.Ruta;
 }
-
-@*<h1>Edición de Rutas</h1>
-<div class="text-center">
-<form method="post">
-  <label for="id" class="form-label">id:</label>
-  <input type="number" class="form-control" id="id" name="id" placeholder="id" asp-for="@ruta.id">
-  <label for="Origen" class="form-label">Origen:</label>
-  <input type="number" class="form-control" id="origen" name="origen" placeholder="Origen" asp-for="@ruta.origen">
-  <label for="Destino" class="form-label">Destino:</label>
-  <input type="number" class="form-control" id="destino" name="destino" placeholder="Destino" asp-for="@ruta.destino">
-  <label for="Tiempo_estimado" class="form-label">Tiempo_estimado:</label>
-  <input type="number" class="form-control" id="tiempo_estimado" name="tiempo_estimado" placeholder="Tiempo_estimado" asp-for="@ruta.tiempo_estimado">
-  <hr>
-  <button type="submit" class="btn btn-success">Guardar</button>
-</form>
-<a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>
-</div>*@
 
 <h1>Editar Ruta</h1>
 
 <form method="post">
-  <div class="form-row">
-    <div class="form-group col-md-3">
-      <label for="id" class="form-label">id:</label>
-      <input type="number" class="form-control" id="id" placeholder="id" name="id" readonly>
-    </div>
-    <div class="form-group col-md-3">
-      <label for="Origen" class="form-label">Origen:</label>
-      <input type="number" class="form-control" id="origen" placeholder="Origen" name="origen" Required>
-    </div>
-    <div class="form-group col-md-3">
-      <label for="Destino" class="form-label">Destino:</label>
-      <input type="number" class="form-control" id="destino" placeholder="Destino" name="destino" Required>
-    </div>
-    <div class="form-group col-md-3">
-      <label for="Tiempo_estimado" class="form-label">Tiempo estimado:</label>
-      <input type="number" class="form-control" id="tiempo_estimado" placeholder="Tiempo estimado" name="tiempo_estimado" Required>
-    </div>
-  </div>
   
+    <div class="form">
+    <label for="id" class="form-label">id:</label>
+    <input type="number" class="form-control" id="id" placeholder="id" asp-for="@ruta.id" Readonly>
+  </div>
+  </div>
+    <div class="form-group col-md-4">
+      <label for="Origen" class="form-label">Origen:</label>
+      <select name="origen" class="form-control">
+        <option value="">-</option>
+        @foreach (var estacion in Model.Estaciones)
+        {
+          <option value="@estacion.id">@estacion.nombre - @estacion.direccion</option>
+        }
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="Destino" class="form-label">Destino:</label>
+      <select name="destino" class="form-control">
+        <option value="">-</option>
+        @foreach (var estacion in Model.Estaciones)
+        {
+          <option value="@estacion.id">@estacion.nombre - @estacion.direccion</option>
+        }
+      </select>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="Tiempo_estimado" class="form-label">Tiempo estimado:</label>
+      <input type="number" class="form-control" id="tiempo_estimado" placeholder="Tiempo estimado"
+        name="tiempo_estimado" Required>
+    </div>
+
+  </div>
+
   <div>
     <button type="submit" class="btn btn-success">Enviar</button>
     <a asp-page="./List" class="btn btn-primary table-btn"><i class="fas fa-undo-alt"></i></a>

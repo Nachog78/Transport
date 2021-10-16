@@ -45,11 +45,12 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 
         public void Delete(int id)
         {
-            var estacion = _appContext.Estaciones.Find(id);
+        var estacion = _appContext.Estaciones.Find(id);
             if (estacion == null)
                 return;
             _appContext.Estaciones.Remove(estacion);
             _appContext.SaveChanges();
+            
         }
     }
 }

@@ -8,41 +8,46 @@ using ProyectoCiclo3.App.Persistencia.AppRepositorios;
 using ProyectoCiclo3.App.Dominio;
 using Microsoft.AspNetCore.Authorization;
 
- 
+
 namespace ProyectoCiclo3.App.Frontend.Pages
 {
     [Authorize]
 
-    public class EditRutaModel : PageModel
+    public class EditModel : PageModel
     {
         private readonly RepositorioRutas repositorioRutas;
+        private readonly RepositorioEstaciones repositorioEstaciones;
+
         [BindProperty]
-        public Rutas Ruta {get;set;}
+        public Rutas Ruta { get; set; }
+        public IEnumerable<Rutas> Rutas {get;set;}
+        public IEnumerable<Estaciones> Estaciones {get;set;}
  
-        public EditRutaModel(RepositorioRutas repositorioRutas)
-       {
-            this.repositorioRutas=repositorioRutas;
-       }
- 
-        public IActionResult OnGet(int rutaId)
+
+        public EditModel(RepositorioRutas repositorioRutas, RepositorioEstaciones repositorioEstaciones)
         {
-                Ruta=repositorioRutas.GetRutaWithId(rutaId);
-                return Page();
- 
-        }
-        public IActionResult OnPost()
-        {
-            if(!ModelState.IsValid)
-            {
-                return Page();
-            }
-            if(Ruta.id>0)
-            {
-            Ruta = repositorioRutas.Update(Ruta);
-            }
-            return RedirectToPage("./List");
+            this.repositorioRutas = repositorioRutas;
+            this.repositorioEstaciones = repositorioEstaciones;
+
         }
 
+        public IActionResult OnGet(int rutaId)
+        {
+            Ruta = repositorioRutas.GetRutaWithId(rutaId);
+            Estaciones = repositorioEstaciones.GetAll();
+            return Page();
+
+        }
+        public IActionResult OnPost(int origen, int destino, int tiempo_estimado)
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+            Ruta = repositorioRutas.Update(Ruta);
+            return RedirectToPage("./List");
+        }
     }
 
 }
+
